@@ -26,6 +26,10 @@ Rather than treating robots as rigid tools for automation, Bunraku approaches th
 Bunraku development is ongoing, shaped by practical use cases and evolving ideas about robotic agency, interaction, and performativity.  
 It is used in-house as an experimental tool and has contributed to the development of various robotic art installations and performances.
 
+## Disclaimer
+
+Bunraku is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
+
 ---
 
 ## Git LFS Notice
