@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="PVs2wqXcsBKOrxIrkeDGSE" LanguageVersion="2025.7.0-0359-gbbb0444d86" Version="0.128">
-  <NugetDependency Id="IjVkFHomJixPw4hXZtcrOU" Location="VL.CoreLib" Version="2025.7.0-0359-gbbb0444d86" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="PVs2wqXcsBKOrxIrkeDGSE" LanguageVersion="2025.7.0-0170-gf0ee7a321e" Version="0.128">
+  <NugetDependency Id="IjVkFHomJixPw4hXZtcrOU" Location="VL.CoreLib" Version="2025.7.0-0170-gf0ee7a321e" />
   <Patch Id="FQys3wgN4Q2N3gLiMOaMWN">
     <Canvas Id="LvNnrdrFzuoLq8p7LgDkKF" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -58,7 +58,7 @@
             <Pin Id="UCftC1mWSH9LwNmCpzQi92" Name="Orientation" Kind="InputPin" />
             <Pin Id="P8fcDsJew0MOoljZJhxkvW" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="EcImEvkonfKNMeLKxuePmu" Comment="Position" Bounds="230,160,47,43" ShowValueBox="true" isIOBox="true" Value="995, 1322, 359">
+          <Pad Id="EcImEvkonfKNMeLKxuePmu" Comment="Position" Bounds="291,160,47,43" ShowValueBox="true" isIOBox="true" Value="995, 1322, 359">
             <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
@@ -66,12 +66,12 @@
               <p:stepsize p:Type="Single">1</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="S44w82kXhQXLZhgoUtKibm" Comment="Orientation" Bounds="377,161,39,43" ShowValueBox="true" isIOBox="true" Value="0.8, 0.43, 0.54">
+          <Pad Id="S44w82kXhQXLZhgoUtKibm" Comment="Orientation" Bounds="377,190,39,43" ShowValueBox="true" isIOBox="true" Value="0.8, 0.43, 0.54">
             <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="207,680,90,19" Id="K75oMSoYt14PSRjPytdS4v">
+          <Node Bounds="207,720,90,19" Id="K75oMSoYt14PSRjPytdS4v">
             <p:NodeReference LastCategoryFullName="Bunraku.Visulization" LastDependency="bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RobotSceneView" />
@@ -88,7 +88,7 @@
             <Pin Id="QTN4AEJo6z0MtKWPBQ87Z8" Name="RobotAssembly" Kind="InputPin" />
             <Pin Id="JZ9xr2tGHlbQXfKr0BV7q0" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="358,680,90,19" Id="NwG9B4sIvFWN0JcXyVmasP">
+          <Node Bounds="695,670,90,19" Id="NwG9B4sIvFWN0JcXyVmasP">
             <p:NodeReference LastCategoryFullName="Bunraku.State" LastDependency="bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="VisualizerProfile" />
@@ -97,7 +97,7 @@
             <Pin Id="MrlgFdnI8jVQMuScHqEUER" Name="Input" Kind="InputPin" />
             <Pin Id="QfHVlpHwwcoNosqYdI1dcc" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="358,710,54,19" Id="H4y6WHrn8VvLcf29dibPvJ">
+          <Node Bounds="695,720,54,19" Id="H4y6WHrn8VvLcf29dibPvJ">
             <p:NodeReference LastCategoryFullName="Serialization.MessagePack" LastDependency="VL.Serialization.MessagePack.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="MessagePack" />
@@ -106,8 +106,8 @@
             <Pin Id="PRZnTJNDoPwM4jSrvP2N2c" Name="Input" Kind="InputPin" />
             <Pin Id="NnmYXxxTSYdLsrfFTCaHjU" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="SKTbRHFXsAnNmZl8BsM24W" Comment="" Bounds="360,780,94,96" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="V8U1dyfvl81MLOvZ7kgwFV" Bounds="274,576,412,19" ShowValueBox="true" isIOBox="true" Value="add an IRobotProfile as an interface to unify the shape of the outputs">
+          <Pad Id="SKTbRHFXsAnNmZl8BsM24W" Comment="" Bounds="697,790,54,95" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="V8U1dyfvl81MLOvZ7kgwFV" Bounds="353,504,412,19" ShowValueBox="true" isIOBox="true" Value="The IRobotProfile as an interface to unify the shape of the outputs">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -116,14 +116,49 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="371,670,70,19" Id="Aqw0K1epQnkPK26DrfBnjZ">
+            <p:NodeReference LastCategoryFullName="Bunraku.State" LastDependency="bunraku.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="State" NeedsToBeDirectParent="true" />
+              <Choice Kind="ProcessAppFlag" Name="StaticProfile" />
+            </p:NodeReference>
+            <Pin Id="GSk74VtsgvPLmaTvqutyOY" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="KAl9LNh3eUBN3LlyKhnQyd" Name="Input" Kind="InputPin" />
+            <Pin Id="JQL2canLhYWLfsUpJZwmGN" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="371,720,54,19" Id="Bi6uXbSM6Z5PjsfoJvkGMB">
+            <p:NodeReference LastCategoryFullName="Serialization.MessagePack" LastDependency="VL.Serialization.MessagePack.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="MessagePack" />
+              <Choice Kind="OperationCallFlag" Name="Serialize" />
+            </p:NodeReference>
+            <Pin Id="MEJq4OqxdnOMaH7bEu05XR" Name="Input" Kind="InputPin" />
+            <Pin Id="BCWCan3xc7KNBF6RsSj6q4" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="VOpx8M3YxDdOHqxAQj3Xwn" Comment="" Bounds="373,790,45,95" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="539,670,84,19" Id="OteCYTGfKt2PbgaGqcqXg8">
+            <p:NodeReference LastCategoryFullName="Bunraku.State" LastDependency="bunraku.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="State" NeedsToBeDirectParent="true" />
+              <Choice Kind="ProcessAppFlag" Name="DynamicProfile" />
+            </p:NodeReference>
+            <Pin Id="PenH5FccEZkLmk7XRXAcim" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="KPjTjNteC4yPVbBpyITtuE" Name="Input" Kind="InputPin" />
+            <Pin Id="THXq37xgczUL2kd5yU9hXx" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="539,720,54,19" Id="Sbe2o1N1TnDPz5APivBS6f">
+            <p:NodeReference LastCategoryFullName="Serialization.MessagePack" LastDependency="VL.Serialization.MessagePack.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="MessagePack" />
+              <Choice Kind="OperationCallFlag" Name="Serialize" />
+            </p:NodeReference>
+            <Pin Id="CGm1RZnuoY0N6hfnks5m9d" Name="Input" Kind="InputPin" />
+            <Pin Id="RqtZ97gKmTEPfWeev6fn2m" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="Jpc6EeSTaU7Ovy1TQHDVhd" Comment="" Bounds="541,790,35,95" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="Sh5Et5cKCTSPZLIF06F0bs" Name="Create" />
         <Patch Id="KXxT1ZAlCwtQC5nlc7lQrI" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="TuX1YJdDyizQVJvs6wrC9b">
           <Fragment Id="IqB9Y1HXb2tNC2ReRQftHx" Patch="Sh5Et5cKCTSPZLIF06F0bs" Enabled="true" />
           <Fragment Id="KfbCQru8U7IL4rQqmTxX9T" Patch="KXxT1ZAlCwtQC5nlc7lQrI" Enabled="true" />
@@ -138,11 +173,17 @@
         <Link Id="T7aOsGBGZgIMhfZxDe83ra" Ids="JZ9xr2tGHlbQXfKr0BV7q0,MrlgFdnI8jVQMuScHqEUER" />
         <Link Id="OA93uKE4sJuQDayRWjB0MU" Ids="QfHVlpHwwcoNosqYdI1dcc,PRZnTJNDoPwM4jSrvP2N2c" />
         <Link Id="RfHVs1aoUoILUi2UPmQ0np" Ids="NnmYXxxTSYdLsrfFTCaHjU,SKTbRHFXsAnNmZl8BsM24W" />
+        <Link Id="VAeB7OkMg7iMpgVDmpGoqe" Ids="JZ9xr2tGHlbQXfKr0BV7q0,KAl9LNh3eUBN3LlyKhnQyd" />
+        <Link Id="DhQbmyACtUSOpdlaDpMiZL" Ids="JQL2canLhYWLfsUpJZwmGN,MEJq4OqxdnOMaH7bEu05XR" />
+        <Link Id="H3OH4RnWKQfMmgQ2YTsDpv" Ids="BCWCan3xc7KNBF6RsSj6q4,VOpx8M3YxDdOHqxAQj3Xwn" />
+        <Link Id="Ez4yywyiEK7OIihophvAtM" Ids="JZ9xr2tGHlbQXfKr0BV7q0,KPjTjNteC4yPVbBpyITtuE" />
+        <Link Id="HcvgUUxOZwhN1EljHwPBbp" Ids="THXq37xgczUL2kd5yU9hXx,CGm1RZnuoY0N6hfnks5m9d" />
+        <Link Id="Q92Udp85hXSMQPrU3qWhyr" Ids="RqtZ97gKmTEPfWeev6fn2m,Jpc6EeSTaU7Ovy1TQHDVhd" />
       </Patch>
     </Node>
   </Patch>
   <DocumentDependency Id="E3oxPGEqbvJNZM4cGuW7GC" Location="../bunraku.vl" />
-  <NugetDependency Id="PIlZ34jn6dkQDKwec7SRUU" Location="VL.Stride" Version="2025.7.0-0359-gbbb0444d86" />
-  <NugetDependency Id="UNfVR6sHm0UOowxn5toNtk" Location="VL.Serialization.MessagePack" Version="2025.7.0-0359-gbbb0444d86" />
+  <NugetDependency Id="PIlZ34jn6dkQDKwec7SRUU" Location="VL.Stride" Version="2025.7.0-0170-gf0ee7a321e" />
+  <NugetDependency Id="UNfVR6sHm0UOowxn5toNtk" Location="VL.Serialization.MessagePack" Version="2025.7.0-0170-gf0ee7a321e" />
   <NugetDependency Id="SJv3d3h0Go0QZtUNdh7Po7" Location="VL.IO.MQTT" Version="1.2.3" />
 </Document>
