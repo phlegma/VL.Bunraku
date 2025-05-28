@@ -58,7 +58,7 @@
             <Pin Id="UCftC1mWSH9LwNmCpzQi92" Name="Orientation" Kind="InputPin" />
             <Pin Id="P8fcDsJew0MOoljZJhxkvW" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="EcImEvkonfKNMeLKxuePmu" Comment="Position" Bounds="291,160,47,43" ShowValueBox="true" isIOBox="true" Value="995, 1322, 359">
+          <Pad Id="EcImEvkonfKNMeLKxuePmu" Comment="Position" Bounds="291,160,47,43" ShowValueBox="true" isIOBox="true" Value="995, 1287, 359">
             <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
@@ -71,7 +71,7 @@
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="207,720,90,19" Id="K75oMSoYt14PSRjPytdS4v">
+          <Node Bounds="207,600,90,19" Id="K75oMSoYt14PSRjPytdS4v">
             <p:NodeReference LastCategoryFullName="Bunraku.Visulization" LastDependency="bunraku.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RobotSceneView" />
