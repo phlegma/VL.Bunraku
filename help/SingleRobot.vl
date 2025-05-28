@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="CcC8cQUlWswOeWE980ojjl" LanguageVersion="2025.7.0-0340-g1b1e5767de" Version="0.128">
+  <NugetDependency Id="LRi1k1uqUvmPpXBYfvkrjT" Location="VL.CoreLib" Version="2025.7.0-0340-g1b1e5767de" />
+  <Patch Id="GauHDHfpdPrOfhfRE2peY6">
+    <Canvas Id="Hq17MV1HagjQJc3nQ1OKz8" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="J5TxEgAdZ7FPdTzusPuN0g">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="VDQShjA0hzjN9DljBPl6rN">
+        <Canvas Id="CEWhC9BQcgvM8pCR8RCeOZ" CanvasType="Group" />
+        <Patch Id="Bq5QraSZaMdObZf2TUOzWb" Name="Create" />
+        <Patch Id="ViLhW45pbfXMK0orfjEC3M" Name="Update" />
+        <ProcessDefinition Id="JSUNof68E5JNeWvFNq1qAC">
+          <Fragment Id="HFacJ7yirboMzYelyHSwoF" Patch="Bq5QraSZaMdObZf2TUOzWb" Enabled="true" />
+          <Fragment Id="VhW5mznFP2SO4ryXHAUALo" Patch="ViLhW45pbfXMK0orfjEC3M" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <DocumentDependency Id="AVO00ujfwxtOYJ2qVMskka" Location="../bunraku.vl" />
+</Document>
