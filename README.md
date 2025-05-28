@@ -4,7 +4,7 @@
 
 Rather than treating robots as rigid tools for automation, Bunraku approaches them as dynamic, responsive, and performative entities. The framework allows for live interaction, networked collaboration, and alternative input methods, making it particularly suited for multimedia installations, performances, and research into non-utilitarian robotics.
 
-> **Bunraku** (pronounced **boon-rah-koo**) is a form of traditional Japanese puppet theatre that dates back to the 17th century. It is known for its highly intricate puppets, which are operated by multiple puppeteers working together to create fluid, lifelike movements. The performances often feature synchronized storytelling, combining narration, music, and precise puppet manipulation._
+**Bunraku** (pronounced **boon-rah-koo**) is a form of traditional Japanese puppet theatre that dates back to the 17th century. It is known for its highly intricate puppets, which are operated by multiple puppeteers working together to create fluid, lifelike movements. The performances often feature synchronized storytelling, combining narration, music, and precise puppet manipulation.
 
 ---
 
