@@ -27628,15 +27628,6 @@
           </p:NodeReference>
           <Patch Id="FWfx2lUN2VdNwNmrwQ8CPy">
             <Canvas Id="RlqAQKFDgPuPSZKzERI2N0" CanvasType="Group">
-              <Node Bounds="335,450,82,19" Id="I6BbcwHN1H0NnAkQWQctlp">
-                <p:NodeReference LastCategoryFullName="Bunraku.Visulization" LastDependency="bunraku.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="ProcessAppFlag" Name="RobotVisulizer" />
-                </p:NodeReference>
-                <Pin Id="GxLzCzMUYhxLTSv93WNhBx" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="CZfQEuez69YLpjdQeBC4cR" Name="Input" Kind="InputPin" />
-                <Pin Id="TwIAEpZwroDNizAXtuyu7G" Name="Output" Kind="OutputPin" />
-              </Node>
               <Node Bounds="315,754,85,19" Id="HYaPK0vsO1vL82iLmQGTMK">
                 <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -27657,7 +27648,7 @@
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
                 <Pin Id="GsSgNMhy1uXPsoOOgARRdl" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="OIimTn4T5KuNSJQ11Wn9CC" Name="Bounds" Kind="InputPin" DefaultValue="2107, 261, 1254, 880" IsHidden="true" />
+                <Pin Id="OIimTn4T5KuNSJQ11Wn9CC" Name="Bounds" Kind="InputPin" DefaultValue="1076.6666, 100.666664, 806.6667, 778" IsHidden="true" />
                 <Pin Id="BUdmZEO2G2yLhI67pCGLch" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="G75GUByWGcYLJHlT06Iy2V" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="KkFO5EicWIFMoYdJ7Z9hC8" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -27808,15 +27799,6 @@
                 <Pin Id="RzaXzxm51DBMTiOmhFgHqN" Name="Output" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="FAMNkeg1vm6OW6ND7ywqt9" Bounds="337,370" />
-              <Node Bounds="335,420,90,19" Id="IfTg09nttyUPFKw8iT99QM">
-                <p:NodeReference LastCategoryFullName="Bunraku.State" LastDependency="bunraku.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="ProcessAppFlag" Name="VisualizerProfile" />
-                </p:NodeReference>
-                <Pin Id="Ca1L3SMkSmxPYzzT0blW9p" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="VIFlYM9BBnQOFeugKAz0CJ" Name="Input" Kind="InputPin" />
-                <Pin Id="OSZNbVNm4diPjW1FqL24Kw" Name="Output" Kind="StateOutputPin" />
-              </Node>
               <Node Bounds="315,590,85,19" Id="E0XbkSJNryRMZHvcq9zhYR">
                 <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -27902,15 +27884,13 @@
             <Link Id="RReuJulQjSJOo7ZERP8LFB" Ids="TChlJPFW6QDO5cV5nicNOI,A5uCNhqtFxFPVjWESafHC1" />
             <Link Id="R2jBnwZhSqJLiIAAcKZEQB" Ids="RzaXzxm51DBMTiOmhFgHqN,Ld3vYptlOMdQWz1TIwMRZ1" />
             <Link Id="VUiWPXhambLOoKvbWbE1f7" Ids="RhAoPQ7gliMNcAnbSLN20W,FAMNkeg1vm6OW6ND7ywqt9" IsHidden="true" />
-            <Link Id="LsKqg2tU3lKMOqrzMJHwHF" Ids="FAMNkeg1vm6OW6ND7ywqt9,VIFlYM9BBnQOFeugKAz0CJ" />
-            <Link Id="L8QCqv0B3fQPbSZhvPtalA" Ids="OSZNbVNm4diPjW1FqL24Kw,CZfQEuez69YLpjdQeBC4cR" />
-            <Link Id="NxYGgPVAmRcQaoMxOWtMSW" Ids="TwIAEpZwroDNizAXtuyu7G,KdZb1quVs5WNgSLeIdwwa3" />
             <Link Id="EU7h5JIJDaUOxk7RyhofUa" Ids="G1jQ4sShlloMBFGJDgssDv,MY7mlXQZVBcPmibjlixIlj" />
             <Link Id="LEF2ueKl2RYQaMWSLz8H2w" Ids="TzuDnazyQaaMfE56VQkzRG,HS6Ih1WQ35dL41E65RKaRB" />
             <Link Id="PzsBgQcsZhEPRrnDZumi7e" Ids="P6GpOQWIhsCMLlqWPrYTpS,TzuDnazyQaaMfE56VQkzRG" IsHidden="true" />
             <Link Id="Gkh5uAKggEyN9FW7Nki90X" Ids="IpcNFpGdrOgM0WoJbjk50R,PvZMmzVRdMJMcO2t3CNKRX" />
             <Link Id="B7L1DoVPNIMLzNYv1MGXqZ" Ids="TMuvRpdM5qoQH11q67iN1S,K3EBbCeaZDbOdj3T9YQpMD" />
             <Link Id="GwDHg1oj3t3QJkAwAibjra" Ids="Mo6dOR0s1sSPoNejjphYsJ,NwiuE2Lyd7iOC9eFERin1v" />
+            <Link Id="KNGQVVLI8BLQPapI1gk00J" Ids="FAMNkeg1vm6OW6ND7ywqt9,KdZb1quVs5WNgSLeIdwwa3" />
           </Patch>
         </Node>
       </Canvas>
