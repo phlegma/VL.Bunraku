@@ -26,9 +26,10 @@ Rather than treating robots as rigid tools for automation, Bunraku approaches th
 Bunraku development is ongoing, shaped by practical use cases and evolving ideas about robotic agency, interaction, and performativity.  
 It is used in-house as an experimental tool and has contributed to the development of various robotic art installations and performances.
 
-If you use Bunraku to conduct research, we ask that you cite the software as a reference:
+> If you use Bunraku to conduct research, we ask that you cite the software as a reference:
 
-> @misc{bastan_bunraku_2023,
+```bash
+ @misc{bastan_bunraku_2023,
 	address = {Linz, Austria},
 	title = {Bunraku},
 	url = {https://github.com/baxtan/VL.Bunraku},
@@ -37,7 +38,7 @@ If you use Bunraku to conduct research, we ask that you cite the software as a r
 	month = apr,
 	year = {2023},
 }
-
+```
 
 
 ## Disclaimer
