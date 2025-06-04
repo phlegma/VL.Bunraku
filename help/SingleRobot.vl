@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="CcC8cQUlWswOeWE980ojjl" LanguageVersion="2025.7.0-0359-gbbb0444d86" Version="0.128">
-  <NugetDependency Id="LRi1k1uqUvmPpXBYfvkrjT" Location="VL.CoreLib" Version="2025.7.0-0359-gbbb0444d86" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="CcC8cQUlWswOeWE980ojjl" LanguageVersion="2025.7.0-0361-gd2ce43ef49" Version="0.128">
+  <NugetDependency Id="LRi1k1uqUvmPpXBYfvkrjT" Location="VL.CoreLib" Version="2025.7.0-0361-gd2ce43ef49" />
   <Patch Id="GauHDHfpdPrOfhfRE2peY6">
     <Canvas Id="Hq17MV1HagjQJc3nQ1OKz8" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -65,12 +65,12 @@
             <Pin Id="IE2QOWLZCKnLNa5jb6Og2s" Name="RobotAssembly" Kind="InputPin" />
             <Pin Id="KAPtZeu1F9wPRAQrLOwcrI" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="S3J3lQE0YrcMwGqNafvrRI" Comment="Orientation" Bounds="480,170,35,43" ShowValueBox="true" isIOBox="true" Value="1.27, 2.18, 0">
+          <Pad Id="S3J3lQE0YrcMwGqNafvrRI" Comment="Orientation" Bounds="480,170,35,43" ShowValueBox="true" isIOBox="true" Value="1.36, 2.21, 0.08">
             <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="NzHNxxfBWJyLxFvFGBjhN8" Comment="Position" Bounds="394,100,62,51" ShowValueBox="true" isIOBox="true" Value="509, 615, 0">
+          <Pad Id="NzHNxxfBWJyLxFvFGBjhN8" Comment="Position" Bounds="394,100,62,51" ShowValueBox="true" isIOBox="true" Value="649, 686, 0">
             <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
@@ -127,6 +127,15 @@
               <p:stepsize p:Type="Single">1</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="260,321,70,19" Id="Lo0NBEcfaDaN0B3kCEIxlu">
+            <p:NodeReference LastCategoryFullName="Bunraku.Robot.Cybertech" LastDependency="VL.Bunraku.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Cybertech" />
+              <Choice Kind="ProcessAppFlag" Name="KR20R1810" />
+            </p:NodeReference>
+            <Pin Id="G30b3EHbMDIMjQw7YdCIa3" Name="RobotData" Kind="OutputPin" />
+            <Pin Id="TGIBqhnze6OLmNOCCCUtX0" Name="Node Context" Kind="InputPin" IsHidden="true" />
+          </Node>
         </Canvas>
         <Patch Id="Bq5QraSZaMdObZf2TUOzWb" Name="Create" />
         <Patch Id="ViLhW45pbfXMK0orfjEC3M" Name="Update" />
@@ -142,8 +151,8 @@
         <Link Id="Kzm206H5yAUM8lk31AsMKV" Ids="KAPtZeu1F9wPRAQrLOwcrI,IdQcUj8uGBELf6s3wV6iE3" />
         <Link Id="K6IXEXqZudZMnmFIZX2sS1" Ids="JeLfguyJIa9LFOtcHf05P9,TGFnV5sYTigLiDSrIJ67Ix" />
         <Link Id="RuaqkudIyPRMjswUR4O5Yu" Ids="NMIBMqyDi3pMPp0kdxFiZ8,SsSMZjXUhpsL6G4J55AZew" />
-        <Link Id="JdmO4H8xF9bPt0lpG3oWpx" Ids="PhGAUwFqSg9LjS0cF8X8DG,C1cRQVgPZKLOMIcbdnAMaK" />
         <Link Id="SO29x1lzSyLQbAprIQaJdS" Ids="P4TLZOXn6M4N65qZBiGMgs,CbUg9tCwFMNMRx6PuWUHlG" />
+        <Link Id="FKdpByJRmVQOvjOZYExlo0" Ids="G30b3EHbMDIMjQw7YdCIa3,C1cRQVgPZKLOMIcbdnAMaK" />
       </Patch>
     </Node>
   </Patch>
