@@ -3597,13 +3597,14 @@
                   <Pin Id="PUhA2I1ttRPPk2JLw4sR2N" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Pad Id="SDscvkMVrVvO0XK1uj6XcA" SlotId="TniN751CevKPQeZCwEiko0" Bounds="594,1523" />
+                <Pad Id="PJeDOYQgEuRNbRwcTJ7njE" SlotId="TniN751CevKPQeZCwEiko0" Bounds="392,961" />
               </Canvas>
               <ProcessDefinition Id="Dv1vSF2LmuiMTPlUdOtjQY">
                 <Fragment Id="EPk4XIeGzMiPFLmLaBz69p" Patch="BFDoW5XSQkWN7wWnWr7CbV" Enabled="true" />
                 <Fragment Id="ICfDaR5ZSBSPIT3TsjpH9A" Patch="VyYsknNfcUMMmKkPKyWu9z" Enabled="true" />
               </ProcessDefinition>
-              <Patch Id="BFDoW5XSQkWN7wWnWr7CbV" Name="Create" />
-              <Patch Id="VyYsknNfcUMMmKkPKyWu9z" Name="Update" ParticipatingElements="JUps1lnBqXIMdihQn6fUZf,Q2uvOEXsInkPiSF1PaK5K2,AeD7jIkblU0MCPPqizsLm3,P3gTNe3lIxHLpPh7tnGUn2,V1591mc2kXbM7pgsomrB7m,R3JAyl3rNVGLUDwLxVeuUQ,CEjolaHHRPjLXoTszs0rn3,EdCmilpX6jxLWlnMAl7jLz">
+              <Patch Id="BFDoW5XSQkWN7wWnWr7CbV" Name="Create" ParticipatingElements="AeD7jIkblU0MCPPqizsLm3" />
+              <Patch Id="VyYsknNfcUMMmKkPKyWu9z" Name="Update" ParticipatingElements="JUps1lnBqXIMdihQn6fUZf,Q2uvOEXsInkPiSF1PaK5K2,P3gTNe3lIxHLpPh7tnGUn2,V1591mc2kXbM7pgsomrB7m,R3JAyl3rNVGLUDwLxVeuUQ,CEjolaHHRPjLXoTszs0rn3,EdCmilpX6jxLWlnMAl7jLz">
                 <Pin Id="EAkGlcYqMAsL4t4uY5687m" Name="RobotData" Kind="OutputPin" />
               </Patch>
               <Slot Id="TniN751CevKPQeZCwEiko0" Name="RobotData" />
@@ -3627,12 +3628,13 @@
               <Link Id="T5rz7RNaGZCNoOnuQ1XuSB" Ids="KpFIpkIapRdM1Xt8iPrbKs,BNGH8asByCFMo7sQL7aM00" />
               <Link Id="NGpX5fJwksdNUUg8P10r4B" Ids="D09hLPQ5BPJL8UvfZH18jX,UEzIV9eVKBIO8dQS3GXCf1" />
               <Link Id="EiEeoN2PkvJLSyBnTBLzp2" Ids="Iwui5guef0AMTW4rDsYwCo,SFHGOMpdv5UPiUD9jYLc3p" />
-              <Link Id="QXbQpcTPcq1QXb1AbrFgkU" Ids="PUhA2I1ttRPPk2JLw4sR2N,BQF7WnpRtF6MGnPTe9XjvG" />
               <Link Id="E39LRPjM58pMM2ZNwymYdH" Ids="FAhObCMdPf5MmCLo54sFtn,ETMvRvscIecNxzfqNCL4z9" />
               <Link Id="O1o5RaactiQNZ3PnRO7tug" Ids="MDMgklpfQxtOW8UZoUeOKD,SDscvkMVrVvO0XK1uj6XcA" />
               <Link Id="BcpKitcBTmrLNwG4OVWivJ" Ids="SDscvkMVrVvO0XK1uj6XcA,QpWqzbqH54MNi1VpShJcjr" />
               <Link Id="DGegj4mFR1xLZMIqxE74gO" Ids="GfAXHq7otuDN9IBeRXJsvQ,InMzVdtqEGoMqAGowFegEx" />
               <Link Id="GSodnx2yr8hL9jvsBYyspr" Ids="QR6zZwVPy5TPKper101HtS,UUHB3N8bkRMOgrfBpSea5c" />
+              <Link Id="QgOHvRAYWjQLrzyNR0XbJU" Ids="PUhA2I1ttRPPk2JLw4sR2N,PJeDOYQgEuRNbRwcTJ7njE" />
+              <Link Id="NXMWU02EPusLH7bCGhM6Oo" Ids="PJeDOYQgEuRNbRwcTJ7njE,BQF7WnpRtF6MGnPTe9XjvG" />
             </Patch>
           </Node>
           <!--
@@ -3714,7 +3716,7 @@
                     <p:stepsize p:Type="Single">0.01</p:stepsize>
                   </p:ValueBoxSettings>
                 </Pad>
-                <Pad Id="CZtEmO79sInM3XJ1sZl3mq" SlotId="JLXjXtT90fMO6rTps8kkrT" Bounds="430,1454" />
+                <Pad Id="CZtEmO79sInM3XJ1sZl3mq" SlotId="JLXjXtT90fMO6rTps8kkrT" Bounds="317,1031" />
                 <Pad Id="HU9N7UOapsrOI9wd2dd1bZ" Comment="A1_Length" Bounds="437,384,43,15" ShowValueBox="true" isIOBox="true" Value="425">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
@@ -3856,7 +3858,7 @@
                     <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
                   </p:ValueBoxSettings>
                 </Pad>
-                <Pad Id="D37GI90NeGdQD4io7TIkCP" Comment="" Bounds="465,858,56,123" ShowValueBox="true" isIOBox="true" Value="-1, -1, -1, -1, -1, -1">
+                <Pad Id="D37GI90NeGdQD4io7TIkCP" Comment="" Bounds="403,890,56,123" ShowValueBox="true" isIOBox="true" Value="-1, -1, -1, -1, -1, -1">
                   <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Spread" />
                     <p:TypeArguments>
@@ -3895,8 +3897,8 @@
                 </Node>
                 <Pad Id="VJ9W9sCKIrzOuiwBqNUPtR" SlotId="JLXjXtT90fMO6rTps8kkrT" Bounds="519,1593" />
               </Canvas>
-              <Patch Id="SPEEozeXkcqNjWwNAuF3kj" Name="Create" />
-              <Patch Id="LTfgPf9Cx9aNX1DNW2xayt" Name="Update" ParticipatingElements="SuY8aatydFXPUOJz21qYjJ,UgPnqVEpQn5QaYLdJOiu61,A2AQ78whoSVMDg4w3rta4X,EZlakEcX5kdMDlWFETEeES,E5HnHEA2oXAN3MkNaCeNHU,Gm2iPhK8jaONO2UfmbLYdh,VRTykvrfpwtMQN6el0PV0u,El2PMMWOxbPNOfAxRw25PZ,UplAvB8xRAwOedB3IhHca7">
+              <Patch Id="SPEEozeXkcqNjWwNAuF3kj" Name="Create" ParticipatingElements="A2AQ78whoSVMDg4w3rta4X" />
+              <Patch Id="LTfgPf9Cx9aNX1DNW2xayt" Name="Update" ParticipatingElements="SuY8aatydFXPUOJz21qYjJ,UgPnqVEpQn5QaYLdJOiu61,EZlakEcX5kdMDlWFETEeES,E5HnHEA2oXAN3MkNaCeNHU,Gm2iPhK8jaONO2UfmbLYdh,VRTykvrfpwtMQN6el0PV0u,El2PMMWOxbPNOfAxRw25PZ,UplAvB8xRAwOedB3IhHca7">
                 <Pin Id="MGPUQq1l83kODfbarcarn5" Name="RobotData" Kind="OutputPin" />
               </Patch>
               <ProcessDefinition Id="CuFsr7sex3ILnqmNBqQCyk">
@@ -3924,12 +3926,13 @@
               <Link Id="R56lmKYiiOkOAtJWpUKpEL" Ids="Rc9ZqcRq7MsOIOe5eZwkFB,EhN2yxGVfsPQK3DVa5UtpL" />
               <Link Id="AF9rVe5zUECLUJn3BNXPXY" Ids="Dm35PgwMpobL2PyUawGqU5,U2H1edJL01OMeCwaWoBtRp" />
               <Link Id="H3u75XMJ1AcP7BLaJz2nA2" Ids="KNBW8nNtJXDPudvpgvMlZF,RnRop6nM4NtO1upzFnofbi" />
-              <Link Id="Uzc6S3oCe0kPbvFyd0zuER" Ids="KRkfGFJtNnUNVNfdfdB8XB,UYCUhAmJLb0OnQJznWODwu" />
               <Link Id="DADhpDxYK3cLd0V8lhV2ZT" Ids="D37GI90NeGdQD4io7TIkCP,FD126v5g2A4OI5N0e9xfJI" />
               <Link Id="Ud0sd43jVzIO76aNneYBuu" Ids="ULjsy7SXgd3N4VRZelzqV8,B3mQROFoEr9O2m3Ca04PF5" />
               <Link Id="GRqvacxtdTVMuQqqGK2pTG" Ids="JqbxvIjjCH2PEQgp3p7GeQ,VJ9W9sCKIrzOuiwBqNUPtR" />
               <Link Id="E7c7PEkYlOKPN7LiuYt75d" Ids="VJ9W9sCKIrzOuiwBqNUPtR,OaUwVHsxnpjLh4KhcJNIam" />
               <Link Id="PmmIQukEwZdOp57gs6W25K" Ids="KVov9l2fMfGNea1YxlHmYg,GYrucXh9drhPkV77WFJtid" />
+              <Link Id="SFS3kifWr6QNX9pJ4MlhlF" Ids="KRkfGFJtNnUNVNfdfdB8XB,CZtEmO79sInM3XJ1sZl3mq" />
+              <Link Id="Ul6EqeGkcPzL1J90KQEVcz" Ids="CZtEmO79sInM3XJ1sZl3mq,UYCUhAmJLb0OnQJznWODwu" />
             </Patch>
           </Node>
           <!--
@@ -4197,11 +4200,6 @@
               <Patch Id="EkFMmxpZEtjLBYibBXz6pA" Name="Update">
                 <Pin Id="Nh1Q6konLkWOV1JjwbasWZ" Name="RobotData" Kind="OutputPin" />
               </Patch>
-              <!--
-
-    ************************  ************************
-
--->
               <ProcessDefinition Id="Ak2ZR4WzC8zP5lO4YTY3lX">
                 <Fragment Id="K5vsfsfEBJFPYuNkevSiCS" Patch="Gu5GGm0fif7MshWb2MMIr9" Enabled="true" />
                 <Fragment Id="VqPZ5GkRaZZP0KyHy1q6Mn" Patch="EkFMmxpZEtjLBYibBXz6pA" Enabled="true" />
@@ -21097,10 +21095,10 @@
           </Canvas>
           <!--
 
-    ************************ iiwaUDP ************************
+    ************************ SmartServo ************************
 
 -->
-          <Node Name="iiwaUDP" Bounds="468,329" Id="TlJZa2bOFoJQJzhEl1qkB7">
+          <Node Name="SmartServo" Bounds="451,329" Id="TlJZa2bOFoJQJzhEl1qkB7">
             <p:NodeReference>
               <Choice Kind="ClassDefinition" Name="Class" />
               <FullNameCategoryReference ID="Primitive" />
@@ -21300,7 +21298,7 @@
               <Node Bounds="456,587,139,26" Id="IgIYhGnrilvNA8Ar1mCltJ">
                 <p:NodeReference LastCategoryFullName="bunraku.IO.SmartServo.iiwaUDP" LastDependency="bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="iiwaUDP" />
+                  <CategoryReference Kind="ClassType" Name="SmartServo" />
                   <Choice Kind="OperationCallFlag" Name="SendCommand" />
                 </p:NodeReference>
                 <Pin Id="CeDj942mpPZLeNv4Of3ySD" Name="Input" Kind="StateInputPin" />
@@ -21362,7 +21360,7 @@
               <Node Bounds="456,785,139,26" Id="TuWz5ZAvVwqQVlQcuDXbal">
                 <p:NodeReference LastCategoryFullName="bunraku.IO.SmartServo.iiwaUDP" LastDependency="bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="iiwaUDP" />
+                  <CategoryReference Kind="ClassType" Name="SmartServo" />
                   <Choice Kind="OperationCallFlag" Name="SendCommand" />
                 </p:NodeReference>
                 <Pin Id="O9CeKrLiiIRPh019ufbDGy" Name="Input" Kind="StateInputPin" />
@@ -21504,7 +21502,7 @@
               <Node Bounds="504,1105,85,26" Id="AJyxf8oxPJrMDbkGDj22G8">
                 <p:NodeReference LastCategoryFullName="bunraku.IO.SmartServo.iiwaUDP" LastDependency="bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="iiwaUDP" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="SmartServo" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationCallFlag" Name="SendCommand" />
                 </p:NodeReference>
                 <Pin Id="DpAkTE1BNbBMqFc8nrJsKa" Name="Input" Kind="StateInputPin" />
@@ -22229,7 +22227,7 @@
               <Node Bounds="701,623,85,26" Id="GzsXfvPw2jkM8m0DmI6mJC">
                 <p:NodeReference LastCategoryFullName="bunraku.IO.SmartServo.iiwaUDP" LastDependency="bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="iiwaUDP" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="SmartServo" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationCallFlag" Name="SendCommand" />
                 </p:NodeReference>
                 <Pin Id="HD9fQWBHbFQLZ3OfDQRVhH" Name="Input" Kind="StateInputPin" />
@@ -22301,7 +22299,7 @@
               <Node Bounds="704,865,85,26" Id="IbDMgOjCy2FOIqsoLt8Bxq">
                 <p:NodeReference LastCategoryFullName="bunraku.IO.SmartServo.iiwaUDP" LastDependency="bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="iiwaUDP" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="SmartServo" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationCallFlag" Name="SendCommand" />
                 </p:NodeReference>
                 <Pin Id="HIiOpSbuY8ZOxyIKlgAHs6" Name="Input" Kind="StateInputPin" />
@@ -22559,7 +22557,7 @@
           </Node>
         </Canvas>
         <Canvas Id="DxtR7mjOFlALE9x8v5x7bt" Name="RSI" Position="160,267" CanvasType="Group" />
-        <Canvas Id="BjEF6D4awqPMVnaogY5yZE" Name="InputDevices" Position="435,226">
+        <Canvas Id="BjEF6D4awqPMVnaogY5yZE" Name="InputDevices" Position="318,216">
           <!--
 
     ************************ XboxController ************************

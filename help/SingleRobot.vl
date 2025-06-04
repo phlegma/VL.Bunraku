@@ -127,15 +127,6 @@
               <p:stepsize p:Type="Single">1</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="260,321,70,19" Id="Lo0NBEcfaDaN0B3kCEIxlu">
-            <p:NodeReference LastCategoryFullName="Bunraku.Robot.Cybertech" LastDependency="VL.Bunraku.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Cybertech" />
-              <Choice Kind="ProcessAppFlag" Name="KR20R1810" />
-            </p:NodeReference>
-            <Pin Id="G30b3EHbMDIMjQw7YdCIa3" Name="RobotData" Kind="OutputPin" />
-            <Pin Id="TGIBqhnze6OLmNOCCCUtX0" Name="Node Context" Kind="InputPin" IsHidden="true" />
-          </Node>
         </Canvas>
         <Patch Id="Bq5QraSZaMdObZf2TUOzWb" Name="Create" />
         <Patch Id="ViLhW45pbfXMK0orfjEC3M" Name="Update" />
@@ -143,7 +134,6 @@
           <Fragment Id="HFacJ7yirboMzYelyHSwoF" Patch="Bq5QraSZaMdObZf2TUOzWb" Enabled="true" />
           <Fragment Id="VhW5mznFP2SO4ryXHAUALo" Patch="ViLhW45pbfXMK0orfjEC3M" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="OvAiet0w4LXL1KaVWysMOh" Ids="OgPgHlsT7VAOZeZKWIJKZm,K1XtYvNfbFpM0khhdmm1gr" />
         <Link Id="SjrDvhI1qG7OHS5AFZLrut" Ids="Ca5QwdkiE8ZPZqHz03mS0e,IE2QOWLZCKnLNa5jb6Og2s" />
         <Link Id="CyM1ek5umIdMhfMjyVkUUS" Ids="Q4o6FPAgNPSNZpBDgAAMwu,H6R3dGfsPe1O54ZBKGzkTe" />
         <Link Id="PogDr5eCABXPpO7fvZX33l" Ids="S3J3lQE0YrcMwGqNafvrRI,VEDRDLnuOqDNHkKgIXnbjk" />
@@ -152,7 +142,8 @@
         <Link Id="K6IXEXqZudZMnmFIZX2sS1" Ids="JeLfguyJIa9LFOtcHf05P9,TGFnV5sYTigLiDSrIJ67Ix" />
         <Link Id="RuaqkudIyPRMjswUR4O5Yu" Ids="NMIBMqyDi3pMPp0kdxFiZ8,SsSMZjXUhpsL6G4J55AZew" />
         <Link Id="SO29x1lzSyLQbAprIQaJdS" Ids="P4TLZOXn6M4N65qZBiGMgs,CbUg9tCwFMNMRx6PuWUHlG" />
-        <Link Id="FKdpByJRmVQOvjOZYExlo0" Ids="G30b3EHbMDIMjQw7YdCIa3,C1cRQVgPZKLOMIcbdnAMaK" />
+        <Link Id="Vn8tFkEYkMOPNqfO8Kf4zL" Ids="OgPgHlsT7VAOZeZKWIJKZm,K1XtYvNfbFpM0khhdmm1gr" />
+        <Link Id="VkXqrEg2KXELIBCZVvVxgZ" Ids="PhGAUwFqSg9LjS0cF8X8DG,C1cRQVgPZKLOMIcbdnAMaK" />
       </Patch>
     </Node>
   </Patch>
