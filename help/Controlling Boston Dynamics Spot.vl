@@ -42,12 +42,12 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="BVhEFHWx0JSMQqjd9Fe0D0" Comment="username" Bounds="208,986,25,15" ShowValueBox="true" isIOBox="true" Value="baxtan">
+          <Pad Id="BVhEFHWx0JSMQqjd9Fe0D0" Comment="username" Bounds="208,986,25,15" ShowValueBox="true" isIOBox="true" Value="">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="JAXL7ZQPndEN4XaBRr36a3" Comment="password" Bounds="208,1006,25,15" ShowValueBox="true" isIOBox="true" Value="amir@w68t171">
+          <Pad Id="JAXL7ZQPndEN4XaBRr36a3" Comment="password" Bounds="208,1006,25,15" ShowValueBox="true" isIOBox="true" Value="">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
