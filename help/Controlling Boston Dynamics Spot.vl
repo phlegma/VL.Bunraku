@@ -615,7 +615,6 @@
     </Node>
   </Patch>
   <DocumentDependency Id="SsbQh9LV9wJQNse18yMZB6" Location="../VL.Bunraku.vl" />
-  <NugetDependency Id="ObBIRQIlwMHPFOoIw4Jl9l" Location="VL.Bunraku" Version="0.0.0" />
   <NugetDependency Id="ER9hWUR7jQfMZXe1FusvjX" Location="VL.Serialization.MessagePack" Version="2025.7.0-0369-g117540fa59" />
   <NugetDependency Id="FJTqSFUxqtfMIYltzrFJr9" Location="VL.IO.WebSocket" Version="1.1.0" />
 </Document>
