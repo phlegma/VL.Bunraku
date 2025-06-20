@@ -19504,7 +19504,7 @@
             <Link Id="IVYeRX73y6VMgfE8gbZQdK" Ids="VZEaz1k58LcQMQQ4tEUyf1,PObxHovntbTQHSc2izJxwL" />
             <Link Id="RUY1aBQgv8pNeMQYcSFwXi" Ids="AN7m0TS77rFPWNsOQOWOan,D9Xw4NF97bMOVtih0VGszt" />
             <Link Id="OEA1iRGQpUGLSIrrLjsfbZ" Ids="D9Xw4NF97bMOVtih0VGszt,Ju47jJgiWL7LMNJE1ylpVt" IsHidden="true" />
-            <Patch Id="Aq60vmYZUFEOOBSTjA5D5R" Name="GetStaticData">
+            <Patch Id="Aq60vmYZUFEOOBSTjA5D5R" Name="GetStaticProfile">
               <Pin Id="Ju47jJgiWL7LMNJE1ylpVt" Name="Output" Kind="OutputPin" />
             </Patch>
             <Link Id="UeWTvbD4bCVLEoft9T1erV" Ids="PGrTQLjuHJcPK5nitzsM3M,OjIEwBo3q5oOcag0XqaHdc" />
@@ -19521,7 +19521,7 @@
             <Link Id="O2BY1ikkffkO9xBlXQxy9H" Ids="HqLPK1z6Th3OaiRHQhHELQ,AbN4qwV0O9aQWic8y5jA65" />
             <Link Id="N6O6VBsCIu5O3PYfVVHBJ3" Ids="Nb3BOQTSt5lOeQkLKoARFJ,JeXUCnlMXzFOkwGFUPXLug" />
             <Link Id="BbS0d3bUpNILWKylAkjlYX" Ids="JeXUCnlMXzFOkwGFUPXLug,RzJPQKhApRwPHxvXj20Wrc" IsHidden="true" />
-            <Patch Id="JZQsgFk8RulLSBIhFoAeaS" Name="GetDynamicData" ParticipatingElements="FZRSVX73uNRP8XBl751jay">
+            <Patch Id="JZQsgFk8RulLSBIhFoAeaS" Name="GetDynamicProfile" ParticipatingElements="FZRSVX73uNRP8XBl751jay">
               <Pin Id="RzJPQKhApRwPHxvXj20Wrc" Name="Output" Kind="OutputPin" />
             </Patch>
           </Patch>
@@ -31512,7 +31512,7 @@
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
                 <Pin Id="GsSgNMhy1uXPsoOOgARRdl" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="OIimTn4T5KuNSJQ11Wn9CC" Name="Bounds" Kind="InputPin" DefaultValue="2138, 844, 1354, 996" IsHidden="true" />
+                <Pin Id="OIimTn4T5KuNSJQ11Wn9CC" Name="Bounds" Kind="InputPin" DefaultValue="1888, 255, 1354, 996" IsHidden="true" />
                 <Pin Id="BUdmZEO2G2yLhI67pCGLch" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="G75GUByWGcYLJHlT06Iy2V" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
                 <Pin Id="KkFO5EicWIFMoYdJ7Z9hC8" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -32964,7 +32964,7 @@
               <Node Bounds="185,120,77,26" Id="Qnczy9IUK5RLXaSNDLkUfb">
                 <p:NodeReference LastCategoryFullName="Bunraku.Robot.RobotAssembly" LastDependency="VL.Bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="GetStaticData" />
+                  <Choice Kind="OperationCallFlag" Name="GetStaticProfile" />
                 </p:NodeReference>
                 <Pin Id="KEeh1ZfL5RUPIKUkcnG7pN" Name="Input" Kind="StateInputPin" />
                 <Pin Id="ThQeIiDQ31gOPjx0cQatcA" Name="State Output" Kind="StateOutputPin" />
@@ -32974,7 +32974,7 @@
               <Node Bounds="449,110,92,26" Id="RhmFI1FH8igMrjJMnJeW0o">
                 <p:NodeReference LastCategoryFullName="Bunraku.Robot.RobotAssembly" LastDependency="VL.Bunraku.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="GetDynamicData" />
+                  <Choice Kind="OperationCallFlag" Name="GetDynamicProfile" />
                 </p:NodeReference>
                 <Pin Id="EsVIdb9WzWlNHuyZwLVmhN" Name="Input" Kind="StateInputPin" />
                 <Pin Id="SSV1eLQZ83pMn8mXPJusEf" Name="State Output" Kind="StateOutputPin" />
