@@ -302,15 +302,6 @@
                 <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
               </p:ValueBoxSettings>
             </Pad>
-            <Node Bounds="379,400,77,26" Id="Q4WvNKdZSvWQQPSXRiN4zX">
-              <p:NodeReference LastCategoryFullName="Bunraku.Robot.RobotAssembly" LastDependency="VL.Bunraku.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="GetStaticData" />
-              </p:NodeReference>
-              <Pin Id="TgJ1cdpVrkVMITo2HgvtBE" Name="Input" Kind="StateInputPin" />
-              <Pin Id="JXAFKzdZ7frPKRx9pEhzcy" Name="State Output" Kind="StateOutputPin" />
-              <Pin Id="Aqkviut97VcLtbHBZlz1AA" Name="Output" Kind="OutputPin" />
-            </Node>
             <Node Bounds="511,510,57,19" Id="OEd2xSIsmjcLinyz7tWKjV">
               <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -336,6 +327,15 @@
               <Pin Id="MePnBXL4KiVMvT1ZdQKufP" Name="Output" Kind="StateOutputPin" />
             </Node>
             <ControlPoint Id="Akq46ujuVGBLcQMdRcv1qi" Bounds="582,471" />
+            <Node Bounds="371,400,85,26" Id="U6uOdN4COMSMjO7KMXlNzd">
+              <p:NodeReference LastCategoryFullName="Bunraku.Robot.RobotAssembly" LastDependency="VL.Bunraku.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="GetStaticProfile" />
+              </p:NodeReference>
+              <Pin Id="Euvt3MQYuz7LsG5wkatoGR" Name="Input" Kind="StateInputPin" />
+              <Pin Id="L9vPigBoQyhOePJCXjGvlX" Name="State Output" Kind="StateOutputPin" />
+              <Pin Id="Ju7pEGhlbh2OMYILbYfeeD" Name="Output" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <Patch Id="FBdWSlT5sNtOwzpJzdQTuo" Name="Create" />
           <Patch Id="KRKUvqdFLQRQHDrQIGC7av" Name="Update">
@@ -344,11 +344,6 @@
             <Pin Id="Hm1HrXOIy7xN3x2yF5QeOz" Name="Input" Kind="InputPin" />
             <Pin Id="F3jXLxWmcveOTOkCMGoo34" Name="ForceApply" Kind="InputPin" Visibility="Optional" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="Unj8nXznlkhMmwe93j5WA9">
             <Fragment Id="KbEGrjQ0rDgLacj0VXnJkT" Patch="FBdWSlT5sNtOwzpJzdQTuo" Enabled="true" />
             <Fragment Id="SU6vJgbJKMQQUOqK8tMAMI" Patch="KRKUvqdFLQRQHDrQIGC7av" Enabled="true" />
@@ -356,18 +351,18 @@
           <Link Id="HCZ2ORhqLxZM3mcgoBblbz" Ids="PcGig7g1wXDOB10F5Uc9fC,BYsw96dq0QQNAvJdk6xDgO" />
           <Link Id="H7T3GfyWhZrMrI3w27NVC3" Ids="HoknMMVTHWcPg7AlMsSRyB,BTscpPWWWcdPzqYnPJ3yGB" />
           <Link Id="Iccc3bojxoOPJVSJa1NjZz" Ids="KB7yanj5U9xLr6eEXajAjm,JU3sJZ7SRLgPmrEcnD2bxG" />
-          <Link Id="HNfTlV6oRGXN9p8Uq3bFR9" Ids="Aqkviut97VcLtbHBZlz1AA,V3qyuuCEzHPMKRD1R4p818" />
           <Link Id="GXmNE7dcU9bNX648ysoa2s" Ids="HoknMMVTHWcPg7AlMsSRyB,FMLPjZ4sRLaLcCywOijPa1" />
           <Link Id="NJYhjgRWstZMM4P3tKODay" Ids="GHFq9SSgJY0PZuf25gmPEl,SbYyic1s9vEN2CBypW6zZx" />
           <Link Id="C1rtoPfThPrNjbJKAdvkRb" Ids="SbYyic1s9vEN2CBypW6zZx,UZ00Qw2VWRhM9JhtQvPgb5" IsHidden="true" />
           <Link Id="VEEGXb2enL3QTMwtHlBE6W" Ids="MIAw5K0pSMZQWnGTuWij9C,SvPcprtYNEvP8MSzhsaW8t,EyIChnICoT7PtJDYOWyXf0" />
           <Link Id="HXKBXPm8Pp7L2EVdjZc5eB" Ids="MdDzVCQwIdjODSJemYJQuL,MIAw5K0pSMZQWnGTuWij9C" IsHidden="true" />
-          <Link Id="LllqGy2HdzLNc0YK0nybde" Ids="TaLSVZXDH0bQawELCcwvTF,TgJ1cdpVrkVMITo2HgvtBE" />
           <Link Id="CUGO4FMEn0aMBQF1OGwPrQ" Ids="Hm1HrXOIy7xN3x2yF5QeOz,TaLSVZXDH0bQawELCcwvTF" IsHidden="true" />
           <Link Id="JcpyI7zjFavOcxrMN9vvHS" Ids="SqfirSkcIRwPJ8yeYRaP8v,GCAdoXjFa2mPrsCHzcTaG7" />
           <Link Id="IvxmdinfSrjM90jFpfoFYy" Ids="MePnBXL4KiVMvT1ZdQKufP,OtbZYIHxI8yOII9GRu4jw9" />
           <Link Id="Ovv5RWceiUXQXy3X4zmTDo" Ids="Akq46ujuVGBLcQMdRcv1qi,K8t47cUFWO6M3cGzrk4t95" />
           <Link Id="Vs1BXkonMU4N41ziPppwZQ" Ids="F3jXLxWmcveOTOkCMGoo34,Akq46ujuVGBLcQMdRcv1qi" IsHidden="true" />
+          <Link Id="NxCFSPpfb2INAaLwkDNRxU" Ids="TaLSVZXDH0bQawELCcwvTF,Euvt3MQYuz7LsG5wkatoGR" />
+          <Link Id="BW8b2LiRyVsLYckvgJGJo7" Ids="Ju7pEGhlbh2OMYILbYfeeD,V3qyuuCEzHPMKRD1R4p818" />
         </Patch>
       </Node>
       <!--
@@ -441,17 +436,17 @@
             </Node>
             <ControlPoint Id="QN937VXZWCyOinHV3Q4biX" Bounds="669,530" />
             <ControlPoint Id="AtXmzAyzomnPmL4t85IU8Z" Bounds="500,381" />
-            <Node Bounds="615,371,92,26" Id="HGjCT7XFolFQPIuvL6dyW6">
-              <p:NodeReference LastCategoryFullName="Bunraku.Robot.RobotAssembly" LastDependency="VL.Bunraku.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="GetDynamicData" />
-              </p:NodeReference>
-              <Pin Id="DnvwYsG3PUQOedn8njzoQV" Name="Input" Kind="StateInputPin" />
-              <Pin Id="UJTjUteoHbaNTUVsUMIQGK" Name="State Output" Kind="StateOutputPin" />
-              <Pin Id="FK3wheM80RALbaZwpYczPC" Name="Output" Kind="OutputPin" />
-            </Node>
             <ControlPoint Id="EP081Uf2sTEQOoZ5FwIv17" Bounds="617,310" />
             <ControlPoint Id="NMZ5nNX3hJ2NFkAI8OqpwI" Bounds="500,810" />
+            <Node Bounds="615,400,100,26" Id="ENswLpqoRQhMlbYU0VoxAi">
+              <p:NodeReference LastCategoryFullName="Bunraku.Robot.RobotAssembly" LastDependency="VL.Bunraku.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="GetDynamicProfile" />
+              </p:NodeReference>
+              <Pin Id="Q2IxWlf30w6PVYNs8gp3f2" Name="Input" Kind="StateInputPin" />
+              <Pin Id="NXNDdM00dtTMq2ncjEhlJG" Name="State Output" Kind="StateOutputPin" />
+              <Pin Id="PC1PpSpWE1HM65qWR1g5We" Name="Output" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <Patch Id="AU3RL1f2pcAO4iC77PJPiu" Name="Create" />
           <Patch Id="Ij0Bz9rJlbeQQEcAKl8gZI" Name="Update">
@@ -460,11 +455,6 @@
             <Pin Id="KRzhD4vx2PnLSFNMZCaTqx" Name="ForceApply" Kind="InputPin" Visibility="Optional" />
             <Pin Id="D9hMktJf2WfPZ6Yx1Dlk6X" Name="Output" Kind="OutputPin" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="GUMrG2Z0EUxQUZFIxI3asj">
             <Fragment Id="E6KKiD1sxSUNd6aa5U9Hfe" Patch="AU3RL1f2pcAO4iC77PJPiu" Enabled="true" />
             <Fragment Id="PVNkr7KZkWyLevhOnAQZPb" Patch="Ij0Bz9rJlbeQQEcAKl8gZI" Enabled="true" />
@@ -479,11 +469,11 @@
           <Link Id="RVXrvbeiRJjN2gmvRKihWl" Ids="KRzhD4vx2PnLSFNMZCaTqx,QN937VXZWCyOinHV3Q4biX" IsHidden="true" />
           <Link Id="EEcNMuv6aUrLQ2w6tKHJsd" Ids="AtXmzAyzomnPmL4t85IU8Z,S8ZfE71S5nVP1nBsTuIazN" />
           <Link Id="DAYJir53JjvPT9GuT7Qjk4" Ids="KSPNKOFw9JdO6epCDLUDRn,AtXmzAyzomnPmL4t85IU8Z" IsHidden="true" />
-          <Link Id="DR3gSDAPCz4LStrZmElyWs" Ids="FK3wheM80RALbaZwpYczPC,TAYt7lTJiNXP19tPgCeCYq" />
-          <Link Id="PVbebegyfJ1LxVV4HpFDDA" Ids="EP081Uf2sTEQOoZ5FwIv17,DnvwYsG3PUQOedn8njzoQV" />
           <Link Id="OFo6QRtmm6kOdakycgIlDs" Ids="Uv1J8arhVhHLaGP2aSjzlm,EP081Uf2sTEQOoZ5FwIv17" IsHidden="true" />
           <Link Id="DTMMJ1hZKqROZsAtyjk10L" Ids="HLA4bLF19JlLQ3gsxKPqPD,NMZ5nNX3hJ2NFkAI8OqpwI" />
           <Link Id="SULcAn2GDMBNQDiQcTajCn" Ids="NMZ5nNX3hJ2NFkAI8OqpwI,D9hMktJf2WfPZ6Yx1Dlk6X" IsHidden="true" />
+          <Link Id="RduwBvTxA2rOjmK6NPiItv" Ids="EP081Uf2sTEQOoZ5FwIv17,Q2IxWlf30w6PVYNs8gp3f2" />
+          <Link Id="HDoRWO3z1BbLW3cI4z66qs" Ids="PC1PpSpWE1HM65qWR1g5We,TAYt7lTJiNXP19tPgCeCYq" />
         </Patch>
       </Node>
     </Canvas>

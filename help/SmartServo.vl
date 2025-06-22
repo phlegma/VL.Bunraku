@@ -234,7 +234,7 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Overlay Id="MkLDHEutK5bMKQ1p11qXs7" Name="Phycical Robot LBR iiwa" Bounds="173,790,302,373">
+          <Overlay Id="MkLDHEutK5bMKQ1p11qXs7" Name="Phycical Robot LBR iiwa" Bounds="173,800,302,363">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
           <Overlay Id="Expj53Oxf4KP5b9fTsLOSX" Name="Send Axis Data" Bounds="415,1200,662,244">
