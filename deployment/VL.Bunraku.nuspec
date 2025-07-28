@@ -19,7 +19,7 @@
     <!-- Provide description and tags-->
     <description></description>
     <tags>VL, Robotics, Kuka, Spot, Boston Dynamics</tags>
-    <license type="expression"></license>
+    <license type="expression">MIT</license>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
   </metadata>
