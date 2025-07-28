@@ -12,20 +12,20 @@
     <version>0.0.1</version>
     <title>VL.Bunraku</title>
     <!-- Provide authors, projectUrl (website) and repository url-->
-    <authors></authors>
+    <authors>Amir Baxtan</authors>
     <projectUrl></projectUrl>
     <repository type="git" url="https://github.com/baxtan/VL.Bunraku" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Provide description and tags-->
     <description></description>
-    <tags>VL, Robotics, Kuka</tags>
+    <tags>VL, Robotics, Kuka, Spot, Boston Dynamics</tags>
     <license type="expression"></license>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
   </metadata>
   <files>
-    <!-- <file src="..\lib\**\*.dll" target="lib\" exclude="" /> -->
-    <!-- <file src="..\runtimes\**\*.dll" target="runtimes\" exclude="" /> -->
+    <file src="..\lib\**\*.dll" target="lib\" exclude="" />
+    <file src="..\content\**" target="content\" exclude="" />
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
     <file src="nugeticon.png" target="icon\" />

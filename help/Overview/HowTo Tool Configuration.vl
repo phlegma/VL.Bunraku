@@ -359,7 +359,6 @@
   <NugetDependency Id="QkbrZyOIxegP4i4X7ZP5lu" Location="VL.Skia" Version="2025.7.0-0423-g437d373115" />
   <NugetDependency Id="A8UZShM3WAOMoSq0TxFXAC" Location="VL.Stride.TextureFX" Version="2025.7.0-0423-g437d373115" />
   <NugetDependency Id="LRSonG0dQbfM5qLbScqTrA" Location="VL.IO.OSC" Version="2.0.0" />
-  <PlatformDependency Id="AP0rQa8ZkSiOIZtehoRKl5" Location="Stride.Graphics.dll" />
-  <DocumentDependency Id="NuusI1oj0fpN1KiOpIro5M" Location="../VL.Bunraku.vl" />
   <NugetDependency Id="Rb3pIoJaijALrrYu1gPaUm" Location="VL.Serialization.MessagePack" Version="2025.7.0-0423-g437d373115" />
+  <DocumentDependency Id="VtuKqKjOtXIPWpMeQDtJN5" Location="../../VL.Bunraku.vl" />
 </Document>
