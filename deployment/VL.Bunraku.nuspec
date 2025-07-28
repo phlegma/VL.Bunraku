@@ -13,7 +13,7 @@
     <title>VL.Bunraku</title>
     <!-- Provide authors, projectUrl (website) and repository url-->
     <authors>Amir Baxtan</authors>
-    <projectUrl></projectUrl>
+    <projectUrl>https://github.com/baxtan/VL.Bunraku</projectUrl>
     <repository type="git" url="https://github.com/baxtan/VL.Bunraku" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Provide description and tags-->
