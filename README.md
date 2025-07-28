@@ -26,6 +26,21 @@ Rather than treating robots as rigid tools for automation, Bunraku approaches th
 Bunraku development is ongoing, shaped by practical use cases and evolving ideas about robotic agency, interaction, and performativity.  
 It is used in-house as an experimental tool and has contributed to the development of various robotic art installations and performances.
 
+> If you use Bunraku to conduct research, we ask that you cite the software as a reference:
+
+```bash
+ @misc{bastan_bunraku_2023,
+	address = {Linz, Austria},
+	title = {Bunraku},
+	url = {https://github.com/baxtan/VL.Bunraku},
+	abstract = {Bunraku (pronounced boon-rah-koo) is an ongoing project by Amir Bastan exploring robot control, real-time simulation, and collaborative interaction in creative and artistic contexts. A visual live programming tool, developed for artists, designers, and creative coders, it provides an experimental space for working with robotic movement outside of purely industrial applications.},
+	author = {Bastan, Amir},
+	month = apr,
+	year = {2023},
+}
+```
+
+
 ## Disclaimer
 
 Bunraku is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
@@ -40,3 +55,5 @@ Bunraku is provided "as is", without warranty of any kind, express or implied, i
 ```bash
 git lfs install
 git lfs pull
+
+
